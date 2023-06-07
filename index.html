@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <style media="screen">
+}
+  </style>
+  <body>
+<img class="resim" src="indir.jpg" alt="">
+<div class="topnav">
+  <div id="active">
+    <a href="javascript:void(0);" class="active" onclick="myFunction()">Ana Yemekler</a>
+    <a href="#home" class="active" onclick="myFunction1()">Zeytinyağlılar</a>
+    <a href="#home" class="active">Çorbalar</a>
+    <a href="#home" class="active">İçecekler</a>
+  </div>
+  <!-- Navigation links (hidden by default) -->
+<div class="anayemekler" id="anayemekler">
+  <ul>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+      <h5>Tam-Az</h5>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+
+  </ul>
+</div>
+<div class="Zeytinyağlılar" id="Zeytinyağlılar">
+  <ul>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek1</h3>
+      <h5>Tam-Az</h5>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek1</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+    <li>
+      <img src="indir.jpg" alt="">
+      <h3>Yemek</h3>
+    </li>
+
+  </ul>
+</div>
+</div>
+<a href="https://www.google.com"> <img src="https://www.mediaweek.com.au/wp-content/uploads/2022/10/Instagram-logo.jpg" id="logo"> </a>
+<script>
+function myFunction() {
+  var y = document.getElementById('Zeytinyağlılar');
+  var x = document.getElementById("anayemekler");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+    y.style.display = "none";
+  } else {
+    y.style.display = "none";
+    x.style.display = "block";
+  }
+}
+function myFunction1() {
+  var y = document.getElementById("anayemekler");
+  var x = document.getElementById("Zeytinyağlılar");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+    y.style.display = "none";
+  }
+}
+</script>
+
+  </body>
+</html>
