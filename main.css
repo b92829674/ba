@@ -80,12 +80,20 @@ html{background: white;}
   font-size: 17px;
   display: block;
 }
+.contacts{
+  display: block;
+  width: 50%;
+  margin-left: 45%;
+  margin-top: 25%;
+}
 #logo{
   width: 120px;
   height: 80px;
-  padding-left: 40%;
-  padding-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
